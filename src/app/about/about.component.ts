@@ -87,6 +87,7 @@ export class AboutComponent {
     }
 
     onReadCollectionGroup() {
+
         this.db.collectionGroup('lessons', ref => ref.where('seqNo', '==', 1))
                .get()
                .subscribe(snaps => {
@@ -95,6 +96,7 @@ export class AboutComponent {
                        console.log(snap.data());
                    });
                });
+
     }
 }
 
