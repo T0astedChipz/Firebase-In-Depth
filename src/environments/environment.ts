@@ -6,16 +6,16 @@ export const environment = {
   production: false,
   useEmulators: true,
   firebase: {
-    apiKey: "AIzaSyA0xNNXXEnKx2ePP-da2d4uzbZcdBhvJkI",
-    authDomain: "fir-course-419fe.firebaseapp.com",
-    projectId: "fir-course-419fe",
-    storageBucket: "fir-course-419fe.appspot.com",
-    messagingSenderId: "691549285348",
-    appId: "1:691549285348:web:e5641df55856875d0b35f1",
-    measurementId: "G-7P8WENKHZ0"
+    apiKey: 'AIzaSyA0xNNXXEnKx2ePP-da2d4uzbZcdBhvJkI',
+    authDomain: 'fir-course-419fe.firebaseapp.com',
+    projectId: 'fir-course-419fe',
+    storageBucket: 'fir-course-419fe.appspot.com',
+    messagingSenderId: '691549285348',
+    appId: '1:691549285348:web:e5641df55856875d0b35f1',
+    measurementId: 'G-7P8WENKHZ0'
   },
   api: {
-
+    createUser: 'http://localhost:5001/fir-course-419fe/us-central1/createUser'
   }
 };
 
