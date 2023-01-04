@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  useEmulators: true,
+  useEmulators: false,
   firebase: {
     apiKey: 'AIzaSyA0xNNXXEnKx2ePP-da2d4uzbZcdBhvJkI',
     authDomain: 'fir-course-419fe.firebaseapp.com',
@@ -15,7 +15,7 @@ export const environment = {
     measurementId: 'G-7P8WENKHZ0'
   },
   api: {
-    createUser: 'http://localhost:5001/fir-course-419fe/us-central1/createUser'
+    createUser: 'https://us-central1-fir-course-419fe.cloudfunctions.net/createUser'
   }
 };
 
