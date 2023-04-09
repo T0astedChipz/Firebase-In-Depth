@@ -1,0 +1,56 @@
+Node Package Manager CLI
+________________________
+
+# Initialize NPM on project
+npm init
+
+# Install NPM packages
+npm install
+
+# Run local-dev script in package.json
+npm run local-dev
+
+# Run build script in package.json
+npm run build
+
+--------------------
+
+Angular CLI
+___________
+
+# Build Angular front-end
+ng build --configuration production
+
+--------------------
+
+Firebase CLI
+____________
+
+# Install Firebase
+curl -sL https://firebase.tools | bash
+
+# Login to Firebase
+firebase login
+
+# Init Firebase project
+firebase init
+
+# Start Firebase emulators
+firebase emulators:start
+
+# Start Firebase emulator - only Firestore
+firebase emulators:start --only firestore
+
+# Start Firebase emulators and import data
+firebase emulators:start --import sample-courses
+
+# Export emulators data
+firebase emulators:export sample-courses
+
+# Print uid of firebase project
+firebase use
+
+# Deploy firebase project
+firebase deploy
+
+--------------------
